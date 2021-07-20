@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+    padding: 50px;
+    background: url(../img/top_left.png) no-repeat top left, 
+    url(../img/top_right.png) no-repeat top right,
+    url(../img/top.png) top center repeat-x,
+    url(../img/botton_left.png) bottom left no-repeat,
+    url(../img/botton_right.png) no-repeat right bottom,
+    url(../img/botton.png) bottom center repeat-x,
+    url(../img/left.png) left center repeat-y,
+    url(../img/right.png) right center repeat-y;
+}
