@@ -1,0 +1,39 @@
+table  tr:nth-child(odd) {
+    background: black;
+}
+
+table  tr:nth-child(even) {
+    background: black;
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+    background: white;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background: white;
+}
+
+table tr:first-child td:nth-child(odd) {
+    background: lawngreen;
+}
+
+table tr:first-child td:nth-child(even) {
+    background: lawngreen;
+}
+
+table tr:first-child ~ tr td:first-child {
+    background: lawngreen;
+}
+
+table tr:first-child ~ tr td:last-child {
+    background: lawngreen;
+}
+
+table tr:last-child td:nth-child(odd) {
+    background: lawngreen;
+}
+
+table tr:last-child td:nth-child(even) {
+    background: lawngreen;
+}
