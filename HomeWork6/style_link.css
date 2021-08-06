@@ -1,0 +1,61 @@
+a {
+    color: green;
+    margin: 0px 10px 0px 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+.link1 {
+    display: flex;  
+}
+
+.link1 a {
+    border-right: red solid 2px;
+    width: 20%;
+}
+
+.link1 a:last-child{
+    border-right: white solid 2px;
+}
+
+table {
+    width: 100vw;
+}
+
+td {
+    border-right: red solid 2px;
+    
+}
+
+tr td:last-child {
+    border-right: white solid 2px;
+}
+
+.link3 {
+    display: inline;
+}
+
+.link3 a {
+    border-right: red 2px solid;
+    padding-right: 10px;
+}
+
+.link3 a:last-child {
+    border-right: white 1px solid;
+}
+
+.link4 {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px 170px;
+    grid-template-rows: 20px;
+}
+
+.link4 a {
+    border-right: red solid 2px;
+}
+
+.link4 a:last-child {
+    border-right: white solid 2px;
+} 

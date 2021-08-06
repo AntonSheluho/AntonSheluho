@@ -7,8 +7,26 @@ svg {
 
 .body {
     display: flex;
-    flex-direction: row-reverse;
-    place-content: flex-end;
+}
+
+.svg1 {
+    order: 5;    
+}
+
+.svg2 {
+    order: 4;
+}
+
+.svg3 {
+    order: 3;
+}
+
+.svg4 {
+    order: 2;
+}
+
+.svg5 {
+    order: 1;
 }
 
 .svg1:hover {

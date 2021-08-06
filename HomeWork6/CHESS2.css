@@ -3,10 +3,6 @@
     font-size: 20px;
 }
 
-.link::before {
-    content: url(./img/extref.png);
-}
-
 .line2 {
     color: green;
 }
