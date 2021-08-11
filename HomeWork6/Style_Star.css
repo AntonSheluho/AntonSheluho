@@ -1,0 +1,66 @@
+svg {
+    width: 100px;
+    height: 100px;
+    stroke: coral;
+    fill: white;
+}
+
+.body {
+    display: flex;
+}
+
+.svg1 {
+    order: 5;    
+}
+
+.svg2 {
+    order: 4;
+}
+
+.svg3 {
+    order: 3;
+}
+
+.svg4 {
+    order: 2;
+}
+
+.svg5 {
+    order: 1;
+}
+
+.svg1:hover {
+    fill: coral;
+}
+
+.svg1:hover ~ svg {
+    fill: coral;
+}
+
+.svg2:hover {
+    fill: coral;
+}  
+
+.svg2:hover ~ svg {
+    fill: coral;
+}
+
+.svg3:hover {
+    fill: coral;
+}
+
+.svg3:hover ~ svg{
+    fill: coral;
+}
+
+.svg4:hover {
+    fill: coral;
+}
+
+.svg4:hover ~ svg {
+    fill: coral;
+}
+
+.svg5:hover {
+    fill: coral;
+}

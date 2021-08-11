@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_link.css">
+    <title>LINKS</title>
+</head>
+<body>
+    <div class="link1"><!--позиционирование строк выполнено дисплей флексом, разделение бордером. Мне кажется этот вариант весьма продуктивным, так как достаточно легко управлять позицией каждой ссылки и это не занимает много времени--> 
+        <a href="https://www.google.com/">Первая ссылка</a>
+        <a href="https://www.google.com/">Вторая ссылка</a>
+        <a href="https://www.google.com/">Третья ссылка</a>
+        <a href="https://www.google.com/">Четвёртая ссылка</a>
+        <a href="https://www.google.com/">Пятая ссылка</a>
+    </div>
+    <div class="link2"><!--позиционирование строк выполнено таблицей, разделение бордером. Я считаю этот способ вполне не плохим, но требуется хороший опыт к обращением к определённым столбцам через css. Ведь если таблица состоит зи многих строк и ячеек это достаточно сложно.-->
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.google.com/">Первая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://www.google.com/">Вторая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://www.google.com/">Третья ссылка</a>
+                </td>
+                <td>
+                    <a href="https://www.google.com/">Четвёртая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://www.google.com/">Пятая ссылка</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="link3"><!--позиционирование строк выполнено дисплей инлайн, разделение бордером. Не самый лучший способ, ведь если потребуется конкретное позиционирование по высоте, нужно будет попатеть-->
+        <a href="https://www.google.com/">Первая ссылка</a>
+        <a href="https://www.google.com/">Вторая ссылка</a>
+        <a href="https://www.google.com/">Третья ссылка</a>
+        <a href="https://www.google.com/">Четвёртая ссылка</a>
+        <a href="https://www.google.com/">Пятая ссылка</a>
+    </div>
+    <div class="link4"><!--позиционирование строк выполнено дисплей грид, разделение бордером. На мой взгляд самый лучший способ. Спозиционировать строки как по высоте, так и по ширине достаточно легко и не заняло у меня много времени и трудности. И если потребовалось сделоть больше строк, сделать их одинаковыми очень просто -->
+        <a href="https://www.google.com/">Первая ссылка</a>
+        <a href="https://www.google.com/">Вторая ссылка</a>
+        <a href="https://www.google.com/">Третья ссылка</a>
+        <a href="https://www.google.com/">Четвёртая ссылка</a>
+        <a href="https://www.google.com/">Пятая ссылка</a>
+    </div>
+</body>
+</html>

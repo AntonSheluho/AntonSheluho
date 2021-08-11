@@ -1,0 +1,24 @@
+.line1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.link::before {
+    content: url(./img/extref.png);
+}
+
+.line2 {
+    color: green;
+}
+
+.line3 {
+    color: red;
+}
+
+.line4 {
+    color: rgb(104, 171, 226);
+}
+
+.text {
+    margin: 20px 0px 20px 0px
+}

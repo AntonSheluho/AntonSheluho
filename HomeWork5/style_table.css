@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+}
+
+.blue {
+    font-size: 20px;
+    text-align: center;
+    background: rgb(83, 183, 237);
+    color: blue;
+    text-transform: uppercase;
+}
+
+.yellow {
+   background: rgb(243, 243, 154); 
+   width: 100px;
+   padding: 2px 8px 4px 0px;
+   
+}
+
+.ball {
+    background: url(./img/ball.png) top right repeat-y;
+    padding: 23px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+ 
+td > p  {
+    text-indent: 12%;
+    font-weight: 700;
+}
+
+.div {
+    text-indent: 199px;
+    clear: left;
+}
