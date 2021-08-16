@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_row.css">
+    <link rel="stylesheet" href="./media_row.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+        <p class="dj">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <div class="body">
+            <div class="left">
+                <div>
+                    <label class="dj" for="name">Название статьи:</label>
+                </div>
+                <div>
+                    <label class="dj" for="prog">Рубрика:</label>
+                </div>
+                <div>
+                    <label class="dj" for="publ">Публикация:</label>
+                </div>
+                <div>
+                    <label class="dj">Разрешить комментарии:</label>
+                </div>
+            </div>
+            <div class="rigth">
+                <div><input type="text" name="name"></div>
+                <div>
+                    <select class="dj" name="prog">
+                        <option value="программирование">программирование</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="publ">
+                    <label for="publ1">на сайте</label>
+                    <input type="radio" name="publ">
+                    <label for="publ2">в журнале</label>
+                    <input type="radio" name="publ">
+                    <label for="publ3">на сайте и в журнале</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+        <div class="dj"></div>
+        <div><label class="dj" for="">Текст статьи: </label></div>
+        <div>
+            <textarea name="koment" cols="40" rows="3"></textarea>
+        </div>
+        <div>
+            <button class="dj">Опубликовать</button>
+        </div>
+    </form>
+</body>
+</html>

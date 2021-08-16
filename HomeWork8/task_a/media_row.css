@@ -1,0 +1,61 @@
+@media (max-width:670px) {
+    .left {
+        width: 35%;
+    }
+
+    .rigth {
+        width: 64%;
+    }
+
+    .rigth > :nth-child(1) {
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width:585px) {
+    .left > :nth-child(3){
+        margin-bottom: 20px;
+    }
+
+    .rigth > :nth-child(1) {
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width:573px) {
+    .rigth > :nth-child(1) {
+        margin-bottom: 2px;
+    }
+
+    .rigth > :nth-child(3) {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width:421px) {
+    .rigth {
+        width: 63%;
+    }
+}
+
+@media (max-width:391px) {
+    .left {
+        font-size: 13px;
+    }
+
+    .rigth {
+        font-size: 13px;
+    }
+
+    input[type="text"] {
+        height: 11px;
+    }
+
+    .rigth > :nth-child(2) {
+        margin-bottom: 0px;
+    }
+
+    select {
+        height: 17px;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    width: 94vw;
+    margin: 0 10px ;
+}
+
+.dj {
+    font-weight: 700;
+}
+
+.left {
+    display: inline-block;
+    width: 30%;
+}
+
+.left > div {
+    padding: 1px;
+}
+
+.rigth {
+    display: inline-block;
+    width: 69%;
+}
+
+.rigth > :nth-child(1) {
+    margin-bottom: 2px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+textarea {
+    width: 100.5%;
+    height: 21px;
+}
+
+select {
+    width: 50%;
+}

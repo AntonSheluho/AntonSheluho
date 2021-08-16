@@ -1,0 +1,26 @@
+body {
+    width: 94vw;
+    margin: 0 10px ;
+}
+
+.post {
+    width: 100%;
+}
+
+.dj {
+   font-weight: 700;
+   display: block;
+}
+
+.djs {
+    font-weight: 700;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+select , textarea {
+    width: 100.5%;
+    height: 21px;
+}

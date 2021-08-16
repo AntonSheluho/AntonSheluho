@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_column.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="post" action="post">
+        <p class="dj">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <label class="dj" for="name">Название статьи:</label>
+        <input type="text" name="name">
+        <label class="dj" for="progr">Рубрика:</label>
+        <select class="dj" name="progr">
+            <option value="программирование" >программирование</option>
+        </select>
+        <label class="dj" for="publ">Публикация:</label>
+        <div>
+            <input class="inp1" type="radio" name="publ">
+            <label class="djs" for="publ1">на сайте</label>
+        </div>
+        <div>
+            <input class="inp2" type="radio" name="publ">
+            <label class="djs" for="publ2">в журнале</label>
+        </div>
+        <div>
+            <input class="inp3" type="radio" name="publ">
+            <label class="djs" for="publ3">на сайте и в журнале</label>
+        </div>
+        <div>
+            <label class="djs">Разрешить комментарии:</label>
+            <input type="checkbox">
+        </div>
+        <label class="dj" for="">Текст статьи: </label>
+        <textarea name="koment" cols="40" rows="2"></textarea>
+        <button class="dj">Опубликовать</button>
+    </form>
+</body>
+</html>
