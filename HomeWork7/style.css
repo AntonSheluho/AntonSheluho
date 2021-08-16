@@ -1,0 +1,141 @@
+.tagline {
+    background: rgb(92, 160, 232);
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    text-transform: uppercase;
+    line-height: 56px;
+}
+
+.tagline2 {
+    background: rgb(92, 160, 232);
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    text-transform: uppercase;
+    line-height: 69px;
+}
+
+.body {
+    display: flex;
+}
+
+img {
+    float: left;
+    margin-right: 17px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.div {
+    text-indent: 199px;
+    clear: left;
+}
+
+.column1 {
+    background: rgb(230, 196, 86);
+    padding: 1px 10px 1px 14px;
+}
+
+.column2 {
+    background: url(./img/ball.png) top right repeat-y;
+    padding: 0px 17px;
+}
+
+@media (max-width:711px) {
+    .body {
+        width: 100%;
+    }
+
+    .footbool {
+        font-size: 10px;
+    }
+
+    .div {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:515px) {
+    .column2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        text-align: center;
+    }
+
+    img {
+        float: none;
+    }
+
+    .footbool {
+        font-size: 10px;
+        text-indent: 10px;
+    }
+
+    .div {
+        font-size: 10px;
+        text-indent: 0px;
+        text-indent: 10px;
+    }
+}
+
+@media (max-width:430px) {
+    .tagline {
+        font-size: 12px;
+    }
+
+    .column1 {
+        font-size: 14px;
+        padding: 0px 8px 0px 3px;
+    }
+
+    img {
+        width: 140px;
+        height: 100px;
+    }
+
+    .tagline2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:344px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .tagline {
+        height: 113px;
+        font-size: 18px;
+    }
+
+    .tagline2 {
+        font-size: 18px;
+        height: 140px;
+        line-height: 134px;
+    }
+
+    img {
+        width: 195px;
+        height: 133px;
+    }
+
+    .div , .footbool {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:337px) {
+    .tagline2 {
+        line-height: 70px;
+    }
+}
