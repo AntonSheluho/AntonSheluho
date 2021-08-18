@@ -1,0 +1,137 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 356px 70px;
+}
+
+.tagline {
+    background: rgb(92, 160, 232);
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    text-transform: uppercase;
+    line-height: 56px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.tagline2 {
+    background: rgb(92, 160, 232);
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    text-transform: uppercase;
+    line-height: 69px;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.body {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 163px 1fr;
+    grid-template-rows: 356px;
+}
+
+img {
+    float: left;
+    margin-right: 17px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.div {
+    text-indent: 199px;
+    clear: left;
+}
+
+.column1 {
+    background: rgb(230, 196, 86);
+    padding: 1px 10px 1px 14px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.column2 {
+    background: url(./ball.png) top right repeat-y;
+    padding: 0px 17px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+@media (max-width: 660px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+    .tagline {
+        display: none;
+    }
+
+    .tagline2 {
+        display: none;
+    }
+    
+    .body {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+    .column2 {
+        background: none;
+        padding: 0px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .img {
+        text-align:center
+    }
+
+    .img > p {
+        text-align:left ;
+    }
+
+    img {
+        float: none;
+        margin-right: 0px;
+    }
+
+    .div {
+        text-indent: 0px;
+        clear: none;
+    }
+
+    .column1 {
+        background: none;
+        padding: 0;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .column1 > p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    li {
+        display: inline;
+        
+    }
+
+}
